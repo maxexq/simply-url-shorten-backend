@@ -120,4 +120,5 @@ func main() {
 	app.Get("/:code", redirectURL)
 
 	log.Fatal(app.Listen(":8080"))
+
 }
